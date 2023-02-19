@@ -1,0 +1,48 @@
+{
+  "name": "@discord-player/extractor",
+  "version": "3.0.3",
+  "description": "Extractors for discord-player",
+  "keywords": [
+    "discord-player",
+    "music",
+    "bot",
+    "discord.js",
+    "javascript",
+    "voip",
+    "lavalink",
+    "lavaplayer"
+  ],
+  "author": "Androz2091 <androz2091@gmail.com>",
+  "homepage": "https://discord-player.js.org",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Androz2091/discord-player.git"
+  },
+  "scripts": {
+    "build": "tsup",
+    "build:check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "bugs": {
+    "url": "https://github.com/Androz2091/discord-player/issues"
+  },
+  "devDependencies": {
+    "@discord-player/tsconfig": "*",
+    "@types/jsdom": "^20.0.1",
+    "@types/node": "^18.11.18",
+    "@types/node-fetch": "^2.6.2"
+  },
+  "dependencies": {
+    "genius-lyrics": "^4.4.2",
+    "jsdom": "^21.0.0",
+    "node-fetch": "^2.6.7",
+    "reverbnation-scraper": "^2.0.0"
+  }
+}
